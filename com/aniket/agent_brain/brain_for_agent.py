@@ -32,9 +32,10 @@ class AgentBrain:
                             })
             )
 
-            print("Request : ", request_response)
+            print("Request : ", self.user_query)
+            print("System Prompt : ", self.system_prompt)
+
             request_response_json = request_response.json()
-            print("response:", request_response_json)
             response = request_response_json['response']
             response_dict = json.loads(response)
             print(f"\n\nResponse : {response_dict}")
