@@ -1,6 +1,0 @@
-{
-  "model_endpoint": "http://localhost:11434/api/generate",
-  "model": "llama3",
-  "system_prompt": "You are a helpful AI assistant.",
-  "temperature": 0.5
-}
